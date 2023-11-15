@@ -19,7 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
----
+```
 Admin.py
 
 from django.contrib import admin
@@ -38,8 +38,8 @@ class Football_Player(models.Model):
     Matches=models.IntegerField()
 class Football_PlayerAdmin(admin.ModelAdmin):
     list_display=('jessi_no','name','Team','age','Matches')
----
 
+```
 ## OUTPUT
 ![Alt text](image.png)
 
